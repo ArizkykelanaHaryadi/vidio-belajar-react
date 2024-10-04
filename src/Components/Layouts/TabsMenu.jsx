@@ -12,6 +12,7 @@ import KontenBisnis from "../Fragments/KontenBisnis";
 
 const TabsMenu = () => {
     return (
+        // section
         <section className="bg-[#FFFDF3] py-16">
             <div className="container mx-auto px-4 mb-8">
                 <h2 className="text-3xl font-bold text-gray-800 mb-2">Koleksi Video Pembelajaran Unggulan</h2>
