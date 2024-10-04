@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { Link } from 'react-router-dom';
 
 const LandingPage = () => {
     return (
@@ -34,11 +35,11 @@ const TextSection = () => {
             </p>
             <div className="flex justify-center mt-4">
                 <div className="relative">
-                    <a href="/login">
+                    <Link to="/login">
                         <button className="bg-green-400 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">
                             Klik Disini !
                         </button>
-                    </a>
+                    </Link>
                 </div>
             </div>
         </div>
