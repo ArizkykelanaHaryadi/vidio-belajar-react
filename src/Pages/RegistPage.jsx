@@ -61,25 +61,25 @@ const RegistPage = () => {
                             </div>
 
                             <div className="text-right">
-                                <a href="">Lupa Kata sandi</a>
+                                <Link href="">Lupa Kata sandi</Link>
                             </div>
                         </div>
 
                         <div className="">
                             <div
                                 className="mb-4 py-[14px] font-bold text-white px-[20px] text-center rounded-lg bg-[#3ECF4C]  border-[#3ECF4C] border-[1px] border-opacity-25 outline-none focus:border-opacity-60">
-                                <a href="/login">Daftar</a>
+                                <Link href="/login">Daftar</Link>
                             </div>
                             <div
                                 className="mb-4 py-[14px] px-[20px] font-bold text-[#3ECF4C] text-center rounded-lg bg-[#E2FCD9]  border-[#E2FCD9] border-[1px] border-opacity-25 outline-none focus:border-opacity-60">
-                                <a href="/home">Masuk</a>
+                                <Link href="/home">Masuk</Link>
                             </div>
 
                             <p className="text-center">atau</p>
                             <div
                                 className="py-[14px] px-[20px] font-bold text-[#4A505C]  rounded-full bg-transparent flex justify-center gap-4 border-white border-[1px] border-opacity-25 outline-none focus:border-opacity-60">
                                 <img src="./img/gmail.svg" alt="" />
-                                <a href="">Masuk dengan google</a>
+                                <Link href="">Masuk dengan google</Link>
                             </div>
 
                         </div>
