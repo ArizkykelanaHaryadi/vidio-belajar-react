@@ -52,7 +52,7 @@ const Header = () => {
                                             <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900">Profil Saya</a>
                                             <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900">Kelas Saya</a>
                                             <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900">Pesanan Saya</a>
-                                            <Link href="/Login" className="flex items-center px-4 py-2 text-red-500 hover:bg-red-100 hover:text-red-700">
+                                            <Link to="/Login" className="flex items-center px-4 py-2 text-red-500 hover:bg-red-100 hover:text-red-700">
                                                 Keluar
                                                 <span className="ml-2">
                                                     <img src="./img/Keluar.svg" alt="Keluar" className="h-5 w-5" />
@@ -85,7 +85,7 @@ const Header = () => {
                         <a href="#" className="block px-3 py-2 text-gray-700 hover:bg-gray-100 rounded">Profil Saya</a>
                         <a href="#" className="block px-3 py-2 text-gray-700 hover:bg-gray-100 rounded">Kelas Saya</a>
                         <a href="#" className="block px-3 py-2 text-gray-700 hover:bg-gray-100 rounded">Pesanan Saya</a>
-                        <Link href="#" className="block px-3 py-2 text-red-500 hover:bg-red-100 rounded">Keluar</Link>
+                        <Link to="#" className="block px-3 py-2 text-red-500 hover:bg-red-100 rounded">Keluar</Link>
                     </nav>
                 </div>
             )}
