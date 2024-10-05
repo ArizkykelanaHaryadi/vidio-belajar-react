@@ -91,4 +91,4 @@ const RegistPage = () => {
         </>
     )
 }
-export default RegistPage
+export default RegistPage;

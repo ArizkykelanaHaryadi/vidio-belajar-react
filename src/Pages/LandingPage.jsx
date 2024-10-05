@@ -57,4 +57,4 @@ const ImageSection = () => {
     );
 };
 
-export default LandingPage
+export default LandingPage;
