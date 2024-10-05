@@ -13,7 +13,7 @@ const HomePage = () => {
             </div>
 
             {/* bg atas */}
-            <section className="flex justify-center items-center bg-[#fffdf3] py-10 md:py-16 bg-cover bg-center gap-6 md:gap-[32px] bg-[url('./img/FrameH.svg')] rounded-md px-4 md:px-8 lg:px-16">
+            <section className="flex justify-center items-center bg-[#fffdf3] py-10 md:py-16 bg-cover bg-center gap-6 md:gap-[32px] bg-[url('/img/FrameH.svg')] rounded-md px-4 md:px-8 lg:px-16">
                 <div className="max-w-[1200px] w-full text-center">
                     <h1 className="text-2xl md:text-4xl font-bold text-white mb-6 md:mb-8">
                         Revolusi Pembelajaran: Temukan Ilmu Baru melalui Platform Video Interaktif!
@@ -33,7 +33,7 @@ const HomePage = () => {
             </div>
 
             {/* Newsletter Section */}
-            <section className="bg-[url('./img/bawah.svg')] py-10 md:py-16 bg-cover bg-center rounded-lg gap-6 md:gap-8 mb-12 md:mb-16 px-4 md:px-8 lg:px-16">
+            <section className="bg-[url('/img/bawah.svg')] py-10 md:py-16 bg-cover bg-center rounded-lg gap-6 md:gap-8 mb-12 md:mb-16 px-4 md:px-8 lg:px-16">
                 <div className="max-w-6xl mx-auto bg-opacity-70 py-6 md:py-10 text-center text-white">
                     <h2 className="text-xs md:text-sm font-semibold">NEWSLETTER</h2>
                     <h1 className="text-xl md:text-3xl font-bold mt-2">Mau Belajar Lebih Banyak?</h1>
