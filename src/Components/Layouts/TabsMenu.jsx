@@ -3,7 +3,7 @@ import {
     TabsContent,
     TabsList,
     TabsTrigger,
-} from "@/components/ui/tabs"
+} from "@/Components/ui/tabs"
 import SemuaKelas from "../Fragments/SemuaKelas"
 import Pemasaran from "../Fragments/Pemasaran";
 import KontenDesain from "../Fragments/KontenDesain";
