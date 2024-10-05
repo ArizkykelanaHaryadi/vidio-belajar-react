@@ -36,13 +36,17 @@ const LoginPage = () => {
                     </div>
 
                     <div className="">
-                        <div
-                            className="mb-4 py-[14px] px-[20px] text-center rounded-lg bg-[#3ECF4C] text-white font-bold  border-[#3ECF4C] border-[1px] border-opacity-25 outline-none focus:border-opacity-60">
-                            <Link to="/home">Masuk</Link>
-                        </div>
-                        <div
-                            className="mb-4 py-[14px] px-[20px] text-center rounded-lg bg-[#E2FCD9] font-bold text-[#3ECF4C]  border-[#E2FCD9] border-[1px] border-opacity-25 outline-none focus:border-opacity-60">
-                            <Link to="/regist">Daftar</Link>
+                        <div className="">
+                            <Link to="/home">
+                                <div className="mb-4 py-[14px] px-[20px] text-center rounded-lg bg-[#3ECF4C] text-white font-bold border-[#3ECF4C] border-[1px] border-opacity-25 outline-none focus:border-opacity-60">
+                                    Masuk
+                                </div>
+                            </Link>
+                            <Link to="/regist">
+                                <div className="mb-4 py-[14px] px-[20px] text-center rounded-lg bg-[#E2FCD9] font-bold text-[#3ECF4C] border-[#E2FCD9] border-[1px] border-opacity-25 outline-none focus:border-opacity-60">
+                                    Daftar
+                                </div>
+                            </Link>
                         </div>
 
                         <p className="text-center">atau</p>

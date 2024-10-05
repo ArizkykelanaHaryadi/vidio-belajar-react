@@ -61,25 +61,28 @@ const RegistPage = () => {
                             </div>
 
                             <div className="text-right">
-                                <Link to="">Lupa Kata sandi</Link>
+                                <a href="">Lupa Kata sandi</a>
                             </div>
                         </div>
 
                         <div className="">
-                            <div
-                                className="mb-4 py-[14px] font-bold text-white px-[20px] text-center rounded-lg bg-[#3ECF4C]  border-[#3ECF4C] border-[1px] border-opacity-25 outline-none focus:border-opacity-60">
-                                <Link to="/login">Daftar</Link>
+                            <div className="mb-4 py-[14px] font-bold text-white px-[20px] text-center rounded-lg bg-[#3ECF4C] border-[#3ECF4C] border-[1px] border-opacity-25 outline-none focus:border-opacity-60">
+                                <Link to="/login" className="text-white">
+                                    Daftar
+                                </Link>
                             </div>
-                            <div
-                                className="mb-4 py-[14px] px-[20px] font-bold text-[#3ECF4C] text-center rounded-lg bg-[#E2FCD9]  border-[#E2FCD9] border-[1px] border-opacity-25 outline-none focus:border-opacity-60">
-                                <Link to="/home">Masuk</Link>
+                            <div className="mb-4 py-[14px] px-[20px] font-bold text-[#3ECF4C] text-center rounded-lg bg-[#E2FCD9] border-[#E2FCD9] border-[1px] border-opacity-25 outline-none focus:border-opacity-60">
+                                <Link to="/home" className="text-[#3ECF4C]">
+                                    Masuk
+                                </Link>
                             </div>
+
 
                             <p className="text-center">atau</p>
                             <div
                                 className="py-[14px] px-[20px] font-bold text-[#4A505C]  rounded-full bg-transparent flex justify-center gap-4 border-white border-[1px] border-opacity-25 outline-none focus:border-opacity-60">
                                 <img src="./img/gmail.svg" alt="" />
-                                <Link to="">Masuk dengan google</Link>
+                                <a href="">Masuk dengan google</a>
                             </div>
 
                         </div>
