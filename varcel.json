@@ -1,8 +1,6 @@
 {
-    "reweites": [
-        {
-            "source": "/(.*)"
-            "destination": "/"
-        }
-    ]
+  "rewrites": [
+    { "source": "/(.*)",
+    "destination": "/" }
+  ]
 }
