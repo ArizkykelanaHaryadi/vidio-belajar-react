@@ -86,7 +86,11 @@ const Header = () => {
                         <a href="#" className="block px-3 py-2 text-gray-700 hover:bg-gray-100 rounded">Profil Saya</a>
                         <a href="#" className="block px-3 py-2 text-gray-700 hover:bg-gray-100 rounded">Kelas Saya</a>
                         <a href="#" className="block px-3 py-2 text-gray-700 hover:bg-gray-100 rounded">Pesanan Saya</a>
-                        <Link to="/login" className="block px-3 py-2 text-red-500 hover:bg-red-100 rounded">Keluar</Link>
+                        <Link to="/login" className="block px-3 py-2 text-red-500 hover:bg-red-100 rounded">Keluar
+                            <span className="ml-2">
+                                <img src="./img/Keluar.svg" alt="Keluar" className="h-5 w-5" />
+                            </span>
+                        </Link>
                     </nav>
                 </div>
 
