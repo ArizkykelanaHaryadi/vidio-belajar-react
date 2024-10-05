@@ -1,6 +1,7 @@
 import Footer from "@/Components/Layouts/Footer"
 import TabsMenu from "../Components/Layouts/TabsMenu"
 import Header from "@/Components/Layouts/Header"
+import { Link } from "react-router-dom";
 
 const HomePage = () => {
     return (
