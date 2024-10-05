@@ -1,4 +1,5 @@
 import KodeNegara from "@/Components/Elements/KodeNegara"
+import { Link } from "react-router-dom";
 
 
 const RegistPage = () => {
