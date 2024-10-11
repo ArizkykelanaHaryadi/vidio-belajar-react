@@ -20,8 +20,8 @@ const TabsMenu = () => {
             </div>
 
             <Tabs defaultValue="semua" className="w-full">
-                <div className="overflow-x-auto scrollbar-none">
-                    <TabsList className="flex justify-start mx-0 space-x-5 border-b border-gray-200 bg-[#FFFDF3] whitespace-nowrap pb-[1px]">
+                <div className="max-w-full overflow-x-auto">
+                    <TabsList className="flex justify-start mx-4 space-x-1 border-b-2 border-gray-200 bg-[#FFFDF3]">
                         <TabsTrigger
                             value="semua"
                             className="px-4 py-2 text-sm font-medium border-transparent text-gray-500 hover:text-orange-500 hover:border-gray-300 whitespace-nowrap focus:outline-none focus:text-orange-500 focus:border-gray-300 data-[state=active]:text-orange-500 data-[state=active]:border-b-2 data-[state=active]:border-orange-500 data-[state=active]:bg-transparent rounded-none inline-block"
